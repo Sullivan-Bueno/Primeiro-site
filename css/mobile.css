@@ -1,0 +1,72 @@
+h1 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+#list {
+  height: 100%;
+  flex-direction: column;
+}
+
+#navbar {
+  width: 100vw;
+  height: 190px;
+  text-align: center;
+}
+
+#navbar a {
+  font-size: 15px;
+}
+
+#navbar-container {
+  flex-direction: column;
+}
+
+#list {
+  flex-direction: column;
+}
+
+#showcase p {
+  max-width: 250px;
+}
+
+#main {
+  width: 100vw;
+}
+
+#about-us {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  padding-bottom: 25px;
+  height: 500px;
+  width: 100vw;
+}
+
+#about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#about-us-item {
+    width: 100vw;
+}
+
+#about-us-item:hover {
+  padding: 60px 0px;
+}
+
+#more {
+  height: 450px;
+  background: url(/img/ounce-3913742.jpg) no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#more #info {
+    max-width: 380px;
+}
