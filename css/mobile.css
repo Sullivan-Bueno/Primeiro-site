@@ -3,6 +3,9 @@ h1 {
   font-size: 25px;
 }
 
+#showcase h2 {
+  margin-top: 380px;
+}
 #list {
   height: 100%;
   flex-direction: column;
