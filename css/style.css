@@ -101,6 +101,7 @@ button:active {
 /* About us */
 
 #about-us {
+  scroll-margin-top: 80px;
   background: rgba(0, 0, 0, 1);
   color: white;
   height: 150px;
@@ -157,6 +158,7 @@ button:active {
 }
 
 #more {
+  color: white;
   height: 750px;
   background: url(/img/ounce-3913742.jpg) no-repeat center center/cover;
   background-color: rgba(0, 0, 0, 0.4);
@@ -175,5 +177,5 @@ button:active {
 }
 
 #info:hover {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
 }

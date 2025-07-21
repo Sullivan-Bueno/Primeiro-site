@@ -38,6 +38,7 @@ h1 {
 }
 
 #about-us {
+  scroll-margin-top: 190px;
   background: rgba(0, 0, 0, 1);
   color: white;
   padding-bottom: 25px;
