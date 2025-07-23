@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -182,4 +186,100 @@ button:active {
 
 #info:hover {
   background: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer #icon {
+  margin-top: 10px;
+  color: black;
+  background: white;
+}
+
+footer #icon:hover {
+  background: green;
+  color: white;
+}
+
+#contact {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.contact-list-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(36, 37, 36, 0.5);
+  border-radius: 20px;
+  height: 60px;
+  width: 250px;
+  padding: 0;
+  transition: all 500ms ease;
+  border: 1px solid transparent;
+}
+
+.contact-list-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#item-1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#item-2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#item-3 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#item-4 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#item-5 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#item-6 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.contact-list-item:hover {
+  width: 300px;
+  cursor: pointer;
+  font-size: 20px;
+  color: green;
+  border: 1px solid green;
+}
+
+.copyright {
+  background: rgba(36, 37, 36, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
